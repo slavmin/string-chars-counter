@@ -1,0 +1,19 @@
+{
+  "name": "slavmin/string-chars-counter",
+  "description": "Php string chars counter",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Slavmin\\StringCharsCounter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "slavmin"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-mbstring": "*"
+  }
+}
