@@ -16,4 +16,4 @@ composer require slavmin/string-chars-counter
 
 ```php
 $strCounter = new \Slavmin\StringCharsCounter\strLen();
-echo $strCounter->strLen('test');
+echo $strCounter::strLen('test');
